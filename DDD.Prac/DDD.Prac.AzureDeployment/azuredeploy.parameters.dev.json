@@ -1,0 +1,11 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "sku": { "value": "F1" },
+    "webAppName": { "value": "DDD-Prac-web-dev" },
+    "appServicePlanName": { "value": "dddprac-service-plan" },
+    "webAppInsightsName": { "value": "dddprac-service-backend-ai" },
+    "dotnetVersion": { "value": "v7" }
+  }
+}
